@@ -1,5 +1,11 @@
 # @astrojs/compiler
 
+## 2.3.3
+
+### Patch Changes
+
+- 852fc1b: Fix `index out of range [0]` error when there is a component before the `<html>` tag
+
 ## 2.3.2
 
 ### Patch Changes
