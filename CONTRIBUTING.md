@@ -34,6 +34,8 @@ When adding a new feature or debugging an issue, start at the tokenizer, then mo
 
 ### Running
 
+`gotestsum --format pkgname ./internal/...`
+
 - Run all tests: `go test -v ./internal/...`
 - Run a specific folder of tests: `go test -v ./internal/printer`
 
